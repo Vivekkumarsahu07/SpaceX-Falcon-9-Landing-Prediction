@@ -7,11 +7,17 @@ This project aims to create a machine learning pipeline for predicting the succe
 The project follows the following methodologies:
 
 -> Data Collection through API: We gather data related to SpaceX Falcon 9 launches using relevant APIs.
+
 -> Data Collection with Web Scraping: In cases where API data is insufficient, we employ web scraping techniques to obtain the necessary information.
+
 -> Data Wrangling: We process and clean the collected data to make it suitable for analysis.
+
 -> Exploratory Data Analysis with SQL: We perform preliminary data exploration and analysis using SQL queries.
+
 -> Exploratory Data Analysis with Data Visualization: We visualize the data to gain insights into the factors affecting the success of Falcon 9 first stage landings.
+
 -> Interactive Visual Analytics with Folium: We create interactive visualizations to provide a user-friendly way to explore the data.
+
 -> Machine Learning Prediction: Using machine learning techniques, we build a predictive model to forecast the likelihood of a successful landing.
 
 # Summary of Results
@@ -27,7 +33,12 @@ Our initial data exploration reveals several key findings:
 -> KSC LC-39A had the most successful launches of any sites, further emphasizing the significance of the launch site in successful landings.
 
 # Interactive Analytics in Screenshots
-We provide screenshots and interactive visualizations created with Folium to facilitate data exploration and understanding.
+![image](https://github.com/Vivekkumarsahu07/IBM-Data-Science-Capstone-Coursera-/assets/80661612/1b775e25-e977-4d8e-988b-1b60005e129a)
+
+![image](https://github.com/Vivekkumarsahu07/IBM-Data-Science-Capstone-Coursera-/assets/80661612/544fd218-fd83-4515-8786-5c5dc5ea066f)
+
+![image](https://github.com/Vivekkumarsahu07/IBM-Data-Science-Capstone-Coursera-/assets/80661612/58dde2e6-fbbf-4ce6-b427-45eaa6bd7493)
+
 
 # Predictive Analytics Result
 The Decision tree classifier emerges as the best machine learning algorithm for this task. It offers insights into the likelihood of a successful landing for a given Falcon 9 launch. It can be used to estimate launch costs and potentially enable alternate companies to bid against SpaceX for rocket launches.
